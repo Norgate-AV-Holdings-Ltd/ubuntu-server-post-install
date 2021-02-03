@@ -9,5 +9,5 @@ A simple opinionated bash script to configure Ubuntu Server after install.
 Run the following command in the terminal of the newly installed Ubuntu Server.
 
 ```
-sh -c "$(curl -fsSL https://raw.github.com/norgateav-av-holdings-ltd/ubuntu-server-post-install/master/ubuntu-server-post-install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Norgate-AV-Holdings-Ltd/ubuntu-server-post-install/master/ubuntu-server-post-install.sh)"
 ```
