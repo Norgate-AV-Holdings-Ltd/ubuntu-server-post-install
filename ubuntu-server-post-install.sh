@@ -46,3 +46,17 @@ sudo systemctl status fail2ban
 
 sudo fail2ban-client status
 tail /var/log/fail2ban.log
+
+# Install cifs utils
+clear
+echo "Installing cifs utils..."
+sleep 2
+sudo apt update
+sudo apt install cifs-utils -y
+
+# Install autofs
+clear
+echo "Installing autofs..."
+sleep 2
+sudo apt update
+sudo apt install autofs -y
