@@ -23,3 +23,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Norgate-AV-Holdings-Ltd/ub
 3. Install the QEMU guest agent
 4. Configure the firewall to allow all outgoing and deny all incoming except SSH
 5. Install fail2ban
+6. Install cifs-utils
+7. Install autofs
